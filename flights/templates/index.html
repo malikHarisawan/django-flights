@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights</title>
+</head>
+<body>
+    {% for f in flights%}
+   <ul>
+    <li> <h3>{{f.origin}}</h3>{{f}}</li>
+</ul>
+    {%endfor%}
+</body>
+</html>
